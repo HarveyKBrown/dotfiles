@@ -9,3 +9,19 @@ Home directory configs only
 ranger
 
 i3
+
+rofi
+
+i3status
+
+pamixer (pulseaudio frontend)
+
+xinput
+
+xrandr
+
+xbacklight
+
+DejaVu Font
+
+
