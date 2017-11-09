@@ -17,6 +17,7 @@ alias ls='ls --color=auto'
 alias yolo='yaourt --noconfirm'
 alias pacmanclean='sudo pacman -Rns $(pacman -Qqtd)'
 alias ranger='ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir`; cd "$LASTDIR"'
+alias s="sudo"
 
  
 PS1='[\u@\h \W]\$ '
