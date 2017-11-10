@@ -24,4 +24,6 @@ xbacklight
 
 DejaVu Font
 
+Maim
+
 
