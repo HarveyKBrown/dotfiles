@@ -26,4 +26,6 @@ DejaVu Font
 
 Maim
 
+vim
+
 
