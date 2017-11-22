@@ -22,3 +22,9 @@ alias evim="vim ~/.vimrc"
  
 PS1='[\u@\h \W]\$ '
 # PS1='\W \$ '
+
+
+stty stop ''
+stty start ''
+stty -ixon
+stty -ixoff

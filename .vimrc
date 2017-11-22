@@ -29,3 +29,6 @@ colorscheme solarized
 
 " switch between .h and .cpp files seamlessly "
 map <F4> :e %:p:s,.h$,.X123X,:s,.cpp$,.h,:s,.X123X$,.cpp,<CR>
+map <c-s> :w<CR>
+map <c-x> :CtrlP<CR>
+map <c-q> :wq<CR>
