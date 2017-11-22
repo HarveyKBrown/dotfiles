@@ -9,6 +9,7 @@ call plug#begin('~/vim/plugged')
 	Plug 'octol/vim-cpp-enhanced-highlight'
 	"Plug 'scrooloose/syntastic'
 	"Plugin 'valloric/youcompleteme'
+	Plug 'kien/ctrlp.vim'
 	Plug 'vim-scripts/vim-gitgutter'
 	Plug 'https://github.com/kmyk/sdl2.vim'
 	Plug 'vim-airline/vim-airline'
