@@ -28,4 +28,4 @@ Maim
 
 vim
 
-
+vim-plug (Required running manually to install vim plugins)
