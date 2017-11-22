@@ -4,9 +4,12 @@
 
 
 
-" vim-plug config "
+" vim-plug config :PlugUpdate :PlugClean! "
 call plug#begin('~/vim/plugged')
 	Plug 'octol/vim-cpp-enhanced-highlight'
+	"Plug 'scrooloose/syntastic'
+	"Plugin 'valloric/youcompleteme'
+	Plug 'vim-scripts/vim-gitgutter'
 	Plug 'https://github.com/kmyk/sdl2.vim'
 	Plug 'vim-airline/vim-airline'
 	Plug 'altercation/vim-colors-solarized'
