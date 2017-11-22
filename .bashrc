@@ -19,7 +19,6 @@ alias pacmanclean='sudo pacman -Rns $(pacman -Qqtd)'
 alias ranger='ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir`; cd "$LASTDIR"'
 alias s="sudo"
 alias evim="vim ~/.vimrc"
-alias st='st -f "Deja Vu Sans Mono:size=12"'
  
 PS1='[\u@\h \W]\$ '
 # PS1='\W \$ '
