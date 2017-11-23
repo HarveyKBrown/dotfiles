@@ -6,7 +6,7 @@
 [[ $- != *i* ]] && return
 
 
-
+alias evim="vim ~/.vimrc"
 alias myip="curl http://ipecho.net/plain; echo"
 alias home='cd ~'
 alias ..='cd ..'
@@ -18,7 +18,6 @@ alias yolo='yaourt --noconfirm'
 alias pacmanclean='sudo pacman -Rns $(pacman -Qqtd)'
 alias ranger='ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir`; cd "$LASTDIR"'
 alias s="sudo"
-
  
-PS1='[\u@\h \W]\$ '
-# PS1='\W \$ '
+# PS1='[\u@\h \W]\$ '
+PS1='[\u \W]\$ '
