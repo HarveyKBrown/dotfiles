@@ -38,6 +38,7 @@ bindsym XF86MonBrightnessDown exec xbacklight -dec 5 # decrease screen brightnes
 
 # PRINTSCREEN binding (maim)
 bindsym $mod+p exec maim -s > ~/screencap.png
+bindsym $mod+Shift+p exec maim -i $(xdotool getactivewindow) > ~/screencap_active.png
 
 exec modprobe NVreg_RegisterForACPIEvents=1 
 exec modprobe NVreg_EnableMSI=1 
@@ -59,6 +60,7 @@ floating_modifier $mod
 bindsym $mod+Return exec i3-sensible-terminal
 
 # kill focused window
+
 bindsym $mod+Shift+q kill
 
 # change focus

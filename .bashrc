@@ -18,6 +18,13 @@ alias yolo='yaourt --noconfirm'
 alias pacmanclean='sudo pacman -Rns $(pacman -Qqtd)'
 alias ranger='ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir`; cd "$LASTDIR"'
 alias s="sudo"
+alias evim="vim ~/.vimrc"
  
-# PS1='[\u@\h \W]\$ '
+
+
 PS1='[\u \W]\$ '
+
+stty stop ''
+stty start ''
+stty -ixon
+stty -ixoff
