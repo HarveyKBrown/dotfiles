@@ -7,8 +7,10 @@
 " vim-plug config :PlugUpdate :PlugClean! "
 call plug#begin('~/vim/plugged')
 	Plug 'octol/vim-cpp-enhanced-highlight'
-	"Plug 'scrooloose/syntastic'
 	"Plugin 'valloric/youcompleteme'
+	Plug 'w0rp/ale'
+	Plug 'nathanaelkane/vim-indent-guides'
+	Plug 'vim-airline/vim-airline-themes'
 	Plug 'kien/ctrlp.vim'
 	Plug 'vim-scripts/vim-gitgutter'
 	Plug 'https://github.com/kmyk/sdl2.vim'
@@ -26,6 +28,7 @@ syntax enable
 set background=dark
 let g:solarized_termcolors=256
 colorscheme solarized
+let g:airline_theme='cool'
 
 " switch between .h and .cpp files seamlessly "
 map <F4> :e %:p:s,.h$,.X123X,:s,.cpp$,.h,:s,.X123X$,.cpp,<CR>
