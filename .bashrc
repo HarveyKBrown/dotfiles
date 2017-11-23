@@ -6,7 +6,7 @@
 [[ $- != *i* ]] && return
 
 
-
+alias evim="vim ~/.vimrc"
 alias myip="curl http://ipecho.net/plain; echo"
 alias home='cd ~'
 alias ..='cd ..'
@@ -20,9 +20,9 @@ alias ranger='ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir
 alias s="sudo"
 alias evim="vim ~/.vimrc"
  
-PS1='[\u@\h \W]\$ '
-# PS1='\W \$ '
 
+
+PS1='[\u \W]\$ '
 
 stty stop ''
 stty start ''
