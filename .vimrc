@@ -18,7 +18,7 @@ call plug#end()
 
 " generic vim settings "
 set tabstop=4
-set relativenumber
+set number relativenumber
 set gdefault
 
 " make vim look nice
