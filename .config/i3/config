@@ -37,13 +37,13 @@ bindsym XF86MonBrightnessUp exec xbacklight -inc 5 # increase screen brightness
 bindsym XF86MonBrightnessDown exec xbacklight -dec 5 # decrease screen brightness
 
 # PRINTSCREEN binding (maim)
-bindsym $mod+p exec maim -s > ~/screencap.png
+bindsym $mod+p exec maim -s --hidecursor > ~/screencap.png
 bindsym $mod+Shift+p exec maim -i $(xdotool getactivewindow) > ~/screencap_active.png
 
-exec modprobe NVreg_RegisterForACPIEvents=1 
-exec modprobe NVreg_EnableMSI=1 
+exec modprobe NVreg_RegisterForACPIEvents=1
+exec modprobe NVreg_EnableMSI=1
 
-
+bindsym $mod+Shift+s exec --no-startup-id /home/harvey/.config/i3/monitor
 
 
 

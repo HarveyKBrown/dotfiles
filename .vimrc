@@ -3,11 +3,11 @@
 "
 
 
-
 " vim-plug config :PlugUpdate :PlugClean! "
 call plug#begin('~/vim/plugged')
 	Plug 'octol/vim-cpp-enhanced-highlight'
 	"Plugin 'valloric/youcompleteme'
+	Plug 'https://github.com/tikhomirov/vim-glsl.git'
 	Plug 'w0rp/ale'
 	Plug 'nathanaelkane/vim-indent-guides'
 	Plug 'vim-airline/vim-airline-themes'
@@ -32,6 +32,6 @@ let g:airline_theme='cool'
 
 " switch between .h and .cpp files seamlessly "
 map <F4> :e %:p:s,.h$,.X123X,:s,.cpp$,.h,:s,.X123X$,.cpp,<CR>
-map <c-s> :w<CR>
+map <c-s> <esc>:w<CR>
 map <c-x> :CtrlP<CR>
 map <c-q> :wq<CR>
