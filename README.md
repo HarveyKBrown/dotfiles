@@ -1,31 +1,26 @@
 # dotfiles
 linux dotfiles
 
-Home directory configs only
+Home directory configs only, would love to give you all my netctl config passcodes but guess I wont be ¯\_(ツ)_/¯
 
-# Packages Included:
-.bashrc (I know its not a package, shutup)
+# Included:
+.bashrc
 
-ranger
+Configs for:
 
-i3
-
-rofi
-
-i3status
-
-pamixer (pulseaudio frontend)
-
-xinput
-
-xrandr
-
-xbacklight
-
-DejaVu Font
-
-Maim
-
-vim
-
+ranger,
+i3,
+rofi,
+i3status,
+pactl,
+xinput,
+xrandr,
+xbacklight,
+maim,
+vim and
 vim-plug (Required running manually to install vim plugins)
+
+
+DejaVu Monospace font strongly reccomended.
+
+Also includes dumb external monitor output switching script (see .config/i3/monitor) $mod+Shift+s to use, will require a pathedit in i3 config
