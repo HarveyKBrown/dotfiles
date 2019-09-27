@@ -24,10 +24,10 @@ set number relativenumber
 set gdefault
 
 " make vim look nice
-syntax enable
+syntax on
 set background=dark
 let g:solarized_termcolors=256
-colorscheme solarized
+"colorscheme solarized
 let g:airline_theme='cool'
 
 " switch between .h and .cpp files seamlessly "

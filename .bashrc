@@ -25,6 +25,9 @@ alias :q="exit"
 alias wifi="sudo wifi-menu"
 alias !!="sudo !!"
 
+#df -H
+#lsusb
+
 
 PS1='[\u \W]\$ '
 
