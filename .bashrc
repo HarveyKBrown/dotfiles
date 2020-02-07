@@ -28,8 +28,7 @@ alias !!="sudo !!"
 #df -H
 #lsusb
 
-
-PS1='[\u \W]\$ '
+export PS1='\e[0;33m\][\A] \[\e]0;\w\a\]\[\e[31m\]\u \[\e[33m\]\w\[\e[0m\] \e[0;31m\]\$ \e[0m'
 
 stty stop ''
 stty start ''
