@@ -8,6 +8,7 @@
 
 alias myip="curl http://ipecho.net/plain"
 alias home='cd ~'
+alias untar="tar -zxvf"
 alias ..='cd ..'
 alias ebash='vim ~/.bashrc'
 alias ei3='vim ~/.config/i3/config'
