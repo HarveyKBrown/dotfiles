@@ -6,7 +6,6 @@
 [[ $- != *i* ]] && return
 
 
-alias evim="vim ~/.vimrc"
 alias myip="curl http://ipecho.net/plain"
 alias home='cd ~'
 alias ..='cd ..'
@@ -27,8 +26,8 @@ alias !!="sudo !!"
 alias gitedit="vim .git/config"
 alias pull="git pull"
 alias push="git push"
-alias pullsub=‘git pull && git submodule update --recursive --remote’
-alias checkoutsub=‘git checkout --recurse-submodules’
+alias pullsub="git pull && git submodule update --recursive --remote"
+alias checkoutsub="git checkout --recurse-submodules"
 alias egit="vim .git/config"
 #export PS1='\e[0;33m\][\A] \[\e]0;\w\a\]\[\e[31m\]\u \[\e[33m\]\w\[\e[0m\] \e[0;31m\]\$ \e[0m'
 #git checkout -b newLocalBranch remoteName/remoteBranch
