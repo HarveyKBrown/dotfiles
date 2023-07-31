@@ -36,7 +36,7 @@ alias egit="vim .git/config"
 #df -H
 #lsusb
 
-export PS1='\e[0;33m\][\A] \[\e]0;\w\a\]\[\e[31m\]\u \[\e[33m\]\w\[\e[0m\] \e[0;31m\]\$ \e[0m'
+export PS1='\[\e[38;5;70m\][\A] \[\e[95m\]\u \[\e[38;5;178m\]\w \[\e[38;5;70m\]\$ \[\e[0m\]'
 
 rebase() {
     echo “Attempting rebase”
